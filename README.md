@@ -4,6 +4,10 @@
 
 ---
 
+![Dashboard_Preview](preview.png "Dashboard Preview")
+
+---
+
 ## 🚀 Sobre Mim
 Profissional com vivência prática em **Planejamento e Controle de Manutenção (PCM)** na Zaraplast S.A., aliado a formação técnica em **Desenvolvimento de Sistemas (ETEC)** e Gestão da Produção Industrial. Uno a rotina de fábrica e o domínio de ERP (TOTVS Protheus) com habilidades em programação (C#, PHP, JS), automação de rotinas e Power BI para eliminar gargalos operacionais e otimizar indicadores.
 
