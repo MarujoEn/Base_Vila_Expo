@@ -1,47 +1,63 @@
-# 📊 Portfólio de Dados, Automação & PCM — Enzo Miguel Xavier Marujo
+# 🎮 Vila Pixel Expo: Gestão de Dados e Viabilidade de um Festival Geek
 
-> Projetos práticos e soluções voltadas para Gestão da Produção Industrial (PCM), Business Intelligence, automação de processos e desenvolvimento de software.
+> Estudo de caso prático de modelagem de dados, análise financeira e visualização executiva aplicada ao planejamento de um festival de jogos independentes.
 
----
-
-![Dashboard_Preview](preview.png "Dashboard Preview")
+![Dashboard_Preview](preview.png)
 
 ---
 
-## 🚀 Sobre Mim
-Profissional com vivência prática em **Planejamento e Controle de Manutenção (PCM)** na Zaraplast S.A., aliado a formação técnica em **Desenvolvimento de Sistemas (ETEC)** e Gestão da Produção Industrial. Uno a rotina de fábrica e o domínio de ERP (TOTVS Protheus) com habilidades em programação (C#, PHP, JS), automação de rotinas e Power BI para eliminar gargalos operacionais e otimizar indicadores.
+## 🚀 O Projeto
+A **Vila Pixel Expo** é um projeto conceitual de um festival geek e de jogos indie. O desafio original, proposto no curso de Gestão da Produção Industrial, era estruturar toda a viabilidade operacional, comercial e financeira de um evento de médio porte (350 visitantes, 20 estandes).
+
+Para tirar o projeto do papel (ou do PowerPoint), desenvolvi este painel em Power BI. O objetivo foi transformar um plano de negócios estático em uma **ferramenta dinâmica para tomada de decisão**, permitindo simular cenários e identificar o ponto de equilíbrio financeiro.
 
 ---
 
-## 🚀 Sobre o Projeto
-Este repositório contém o modelo de dados em Excel e a estruturação de um painel analítico em Power BI para a **Vila Pixel Expo** (Festival Geek & Indie Games). O objetivo é demonstrar competências práticas em modelagem de dados, finanças aplicadas a eventos, criação de medidas DAX e visualização executiva voltada para a tomada de decisões.
+## 📊 O que o Dashboard Resolve?
+O painel foi modelado para responder a perguntas críticas de um gestor de eventos:
+* **Qual a composição da receita?** (Ingressos vs. Estandes vs. Patrocínios).
+* **Qual o impacto da locação no lucro?** Análise de sensibilidade com três cenários de espaço (Conservador, Intermediário e Parceria).
+* **Qual o ponto de equilíbrio?** Quantos ingressos precisam ser vendidos para cobrir os custos fixos.
+
+### 📈 Principais Indicadores (KPIs)
+* **Receita Projetada:** R$ 25,7K (Divididos em 4 fontes).
+* **Custos Operacionais:** R$ 17K+ (Com e sem reserva de contingência de 12%).
+* **Análise de Cenários:** Teste de estresse financeiro alterando o custo de locação.
+* **Ponto de Equilíbrio:** 237 ingressos.
 
 ---
 
-## 📂 Estrutura da Base de Dados
-A base foi construída e estruturada em 4 tabelas principais:
-1. **`Receitas`**: Faturamento bruto projetado dividido por quatro fontes de receita (Ingressos, Estandes, Patrocínios e Alimentação).
-2. **`Custos_Fixos`**: Custos operacionais detalhados em 12 categorias (infraestrutura, segurança, marketing, etc.), calculados com e sem a reserva de contingência de 12%.
-3. **`Cenarios_Locacao`**: Simulações de sensibilidade financeira testando diferentes custos de locação de espaço e o impacto direto no lucro e no ponto de equilíbrio.
-4. **`Cronograma_Marketing`**: Planejamento estratégico de 8 semanas de campanhas e canais de divulgação.
+## 📂 Modelagem de Dados
+A base foi estruturada em Excel e importada para o Power BI, dividida em 4 tabelas principais:
+1. **Receitas:** Faturamento bruto (Ingressos, Estandes, Patrocínios, Alimentação).
+2. **Custos_Fixos:** Detalhamento de 12 categorias operacionais (infraestrutura, equipe, segurança, etc).
+3. **Cenarios_Locacao:** Simulação de custos de espaço para análise de sensibilidade.
+4. **Cronograma_Marketing:** Planejamento de 8 semanas de campanha.
 
 ---
 
-## 📈 Principais Indicadores e Funcionalidades do Dashboard
-* **KPIs Executivos**: Visão imediata de Receita Bruta Projetada (`R$ 25,7K`) e Custos Operacionais (`R$ 17K+`).
-* **Composição de Receitas**: Análise de participação por categoria via gráfico de rosca (destacando a relevância da bilheteria e comercialização de estandes).
-* **Análise de Sensibilidade**: Comparativo de custos e lucro operacional sob diferentes cenários de locação.
-* **Segmentação Dinâmica (Slicer)**: Filtros interativos por cenário para validação rápida de margens e ponto de equilíbrio de ingressos.
+## 🛠️ Tecnologias e Habilidades Aplicadas
+* **Power BI & DAX:** Criação de medidas calculadas, KPIs e análise de sensibilidade.
+* **Excel:** Modelagem de dados e estruturação de tabelas financeiras.
+* **Design de UI/UX:** Tema escuro alinhado à identidade visual geek do evento.
+* **Gestão de Projetos:** Aplicação de conceitos de viabilidade, análise de risco e ponto de equilíbrio.
 
 ---
 
-## 🛠️ Tecnologias e Ferramentas Utilizadas
-* **Microsoft Excel**: Modelagem relacional, tabelas inteligentes e lógica de custos com contingência.
-* **Power BI Desktop**: Importação, tratamento e construção de relatórios visuais com foco em UI/UX corporativa.
-* **DAX (Data Analysis Expressions)**: Criação de medidas calculadas para indicadores financeiros.
+## 🧠 O Maior Aprendizado (Soft Skill)
+O primeiro rascunho deste projeto foi focado em impressionar o professor com viabilidade técnica. O feedback foi certeiro: *"Você fez os slides para mim, não para o público do evento"*. 
+
+Aprendi que **dados e planejamento só têm valor se comunicados para o stakeholder certo**. A versão final do projeto (e deste dashboard) foca na experiência do visitante e na tomada de decisão ágil do organizador, sem perder o rigor técnico.
 
 ---
 
-## 👨‍💻 Autor
-Desenvolvido por **MarujoEn**  
-*Em busca de oportunidades como Analista de Dados / BI Júnior.*
+## 📂 Documentação e Apresentação
+Você pode conferir a apresentação completa do projeto e os detalhes visuais do planejamento nos arquivos anexados:
+- [`Apresentação - Vila Pixel Expo.pdf`](slides/slides.pdf)
+
+---
+
+## 👨‍💻 Sobre Mim
+Sou **Enzo Miguel**, profissional em transição e desenvolvimento nas áreas de **Planejamento e Controle (PCM)**, Dados e Automação. Uno a vivência de chão de fábrica e ERP (TOTVS Protheus) com habilidades em BI (Power BI, DAX) e programação (Python, JS, C#) para resolver problemas reais.
+
+*Em busca de oportunidades como Assistente/Analista Júnior de Dados, BI ou PCM.*
